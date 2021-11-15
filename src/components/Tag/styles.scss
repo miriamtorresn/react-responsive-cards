@@ -1,0 +1,27 @@
+@import "../../scss/base.scss";
+
+.tag {
+  &__badge {
+    margin: 0 rem(8) rem(5) 0;
+    border: solid rem(2) $black;
+    color: $black;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0 rem(5);
+    font-size: rem(14);
+
+    &--highlighted {
+      background-color: $black;
+      color: $white;
+    }
+
+    &.clickable {
+      cursor: pointer;
+    }
+
+    &.lowercase {
+      text-transform: none;
+    }
+  }
+}

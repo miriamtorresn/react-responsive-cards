@@ -1,0 +1,28 @@
+@mixin soft-transition {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+@mixin rotate($amount) {
+  -webkit-transform: rotateY($amount);
+  -moz-transform: rotateY($amount);
+  -ms-transform: rotateY($amount);
+  -o-transform: rotateY($amount);
+  transform: rotateY($amount);
+}
+
+@mixin backface-hidden {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+@mixin ellipsis-multiline($clam) {
+  display: -webkit-box;
+  text-align: justify;
+  -webkit-line-clamp: $clam;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

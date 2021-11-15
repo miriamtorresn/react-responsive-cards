@@ -1,0 +1,6 @@
+// Cards Actions
+export const UPDATE_CARDS_LIST = "UPDATE_CARDS_LIST";
+export const UPDATE_LOADING_STATUS = "UPDATE_LOADING_STATUS";
+
+// Categories Actions
+export const UPDATE_CARDS_CATEGORIES = "UPDATE_CARDS_CATEGORIES";
